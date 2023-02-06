@@ -1,1 +1,1 @@
-# twoQubits
+This code creates an array of two qubits and applies a Hadamard gate to the first qubit (qubits[0]) and a Controlled-NOT (CNOT) gate to the two qubits, entangling the qubits. Finally, the qubits are measured.
