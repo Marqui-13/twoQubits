@@ -24,7 +24,7 @@ git clone https://github.com/Marqui-13/twoQubits.git
 Navigate to the cloned repository's directory, and execute the operation with the Quantum Development Kit:
 
 
-dotnet run --project YourProjectName
+dotnet run --project tq.qs
 
 
 ## Code Overview
