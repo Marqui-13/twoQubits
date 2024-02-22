@@ -31,6 +31,7 @@ For those utilizing an Azure Quantum notebook or any Jupyter notebook, you can r
 
 1. Define Your Q# Operation in a `.qs` file:
 
+```qsharp
     operation TwoQubits() : (Result, Result) {
         using (qubits = Qubit[2]) {
             H(qubits[0]);
@@ -41,14 +42,17 @@ For those utilizing an Azure Quantum notebook or any Jupyter notebook, you can r
             return (result1, result2);
         }
     }
+```
 
 2. Run in Python using the `qsharp` package:
 
+```python
     import qsharp
     from Quantum.MyProject import TwoQubits
 
     result = TwoQubits.simulate()
     print(f"Measurement results: {result}")
+```
 
 Replace `Quantum.MyProject` with the appropriate namespace where your `TwoQubits` operation is defined.
 
@@ -69,6 +73,7 @@ This is a high-level overview of running a quantum operation with the Microsoft 
 
 The `TwoQubits` operation manipulates qubit states through quantum gates, demonstrating quantum entanglement and superposition. It concludes with resetting the qubits to their initial state:
 
+```qsharp
 operation TwoQubits() : (Result, Result) {
     using (qubits = Qubit[2]) {
         H(qubits[0]);
@@ -79,6 +84,7 @@ operation TwoQubits() : (Result, Result) {
         return (result1, result2);
     }
 }
+```
 
 This simple operation highlights how quantum gates can be used to manipulate qubit states, demonstrating entanglement between two qubits.
 
