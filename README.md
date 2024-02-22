@@ -64,12 +64,12 @@ Replace `Quantum.MyProject` with the appropriate namespace where your `TwoQubits
 
 After running the operation, the measurements of the qubits will be output. Due to the nature of quantum computation, the output can be probabilistic. The specific outcome depends on the quantum state of the qubits at measurement:
 
-	•	If the first qubit is measured as 0: The second qubit will also be measured as 0 due to entanglement (assuming perfect conditions).
-	•	If the first qubit is measured as 1: The second qubit will be measured as 1, for the same reason.
+   - If the first qubit is measured as 0: The second qubit will also be measured as 0 due to entanglement (assuming perfect conditions).
+   - If the first qubit is measured as 1: The second qubit will be measured as 1, for the same reason.
 
 ### Additional Considerations
 
-	•	Result Analysis: You might want to analyze the results statistically by running the operation multiple times due to quantum randomness.
+   - Result Analysis: You might want to analyze the results statistically by running the operation multiple times due to quantum randomness.
 
 This is a high-level overview of running a quantum operation with the Microsoft QDK. For more detailed instructions, including environment setup, writing drivers in different languages, and advanced execution options, refer to the official Microsoft Quantum documentation.
 
