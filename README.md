@@ -15,7 +15,9 @@ For installation guidance, refer to the [Quantum Development Kit documentation](
 
 Clone this repository to your local environment:
 
+```bash
 git clone https://github.com/Marqui-13/twoQubits.git
+```
 
 ## Usage
 
@@ -23,7 +25,9 @@ git clone https://github.com/Marqui-13/twoQubits.git
 
 Navigate to the repository's directory, and execute the operation with the Quantum Development Kit:
 
+```bash
 dotnet run --project yourProjectName
+```
 
 ### Integrated with Python using `qsharp` Package
 
